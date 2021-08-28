@@ -17,6 +17,7 @@
     <a href="https://github.com/jeeliz/jeelizWeboji"><img width=100 src="https://jeeliz.com/wp-content/uploads/2018/01/LOGO_JEELIZ_BLUE.png"></a>
 </div>
 
+
 <br>
 <br>
 <br>
@@ -25,10 +26,14 @@
 <br>
 <br>
 
-<div align="center">
-  <h2>Explore the interactive docs at: <a href="https://handsfree.js.org">Handsfree.js.org</a></h2>
-  <p>Or try it right away with the serverless boilerplates in <code>/boilerplate/</code>!</p>
-</div>
+<h1 style="color: red">💻 Project Documentation</h1>
+I'm still experimenting with various ways to create documentation. The docs can be found:
+
+- https://handsfree.js.org  - This is the documentation that runs locally, and is the oldest docs
+- https://handsfree.dev - This is the newer site hosted on WordPress, and includes the start of the Handsfree Plugin Repository
+- https://codemedium.com/b1f09b783c034644acc1c873f347d6da - This is the Notion version of the documentation
+
+Sorry for the confusion! I'll likely be settling on Notion but am still trying to find the best docs. Thanks!
 
 <br>
 <br>
@@ -65,8 +70,8 @@ This option is great if you don't have or need a server, or if you're prototypin
 ```html
 <head>
   <!-- Include Handsfree.js -->
-  <link rel="stylesheet" href="https://unpkg.com/handsfree@8.4.4/build/lib/assets/handsfree.css" />
-  <script src="https://unpkg.com/handsfree@8.4.4/build/lib/handsfree.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/handsfree@8.5.1/build/lib/assets/handsfree.css" />
+  <script src="https://unpkg.com/handsfree@8.5.1/build/lib/handsfree.js"></script>
 </head>
 
 <body>
@@ -103,7 +108,7 @@ handsfree.start()
 
 ## Hosting the models yourself
 
-The above will load models, some over 10Mb, from the [Unpkg CDN](https://unpkg.com/browse/handsfree@8.4.4/build/lib/assets). If you'd rather host these yourself (for example, to use offline) then you can eject the models from the npm package into your project's public folder:
+The above will load models, some over 10Mb, from the [Unpkg CDN](https://unpkg.com/browse/handsfree@8.5.1/build/lib/assets). If you'd rather host these yourself (for example, to use offline) then you can eject the models from the npm package into your project's public folder:
 
 ```bash
 # Move the models into your project's public directory
